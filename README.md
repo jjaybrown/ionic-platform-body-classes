@@ -12,6 +12,12 @@ These classes allow Ionic to apply certain styles, polyfills and actions based o
 ## Device Grades
 Ionic determines a device grade based on the availability of web APIs and CSS features, whilst also taking into account the device's OS capabilities.
 
+`ionic.Platform#setGrade - ionic.bundle.js`
+>Set the grade of the device: 'a', 'b', or 'c'. 'a' is the best
+>(most css features enabled), 'c' is the worst.  By default, sets the grade
+>depending on the current device.
+
+
 | Grade        | Class           | Description  |
 | ------------- |:-------------:| --------------|
 | A      | `grade-a` | All platforms are Grade A by default, based on CSS features being available and Web APIs. |
