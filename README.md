@@ -5,7 +5,7 @@ Document to describe the different platform classes applied to document body by 
 Please submit PRs with any missing classes that adds a new row on the tables below.
 
 # Platform Classes
-`ionic.Platform` is a utility for providing meta information about the current device, it examines the current User Agent, Navigator and Document status to populate device information and add classes to `body`.
+`ionic.Platform` is a utility for providing meta information about the current device, it examines the User Agent, Navigator and Document status to populate device information obtained from `org.apache.cordova.device` and adds classes to `body`.
 
 These classes allow Ionic to apply certain styles, polyfills and actions based on the platform. Commonly used to provide a platform specific 'look and feel'.
 
