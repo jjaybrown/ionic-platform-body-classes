@@ -1,5 +1,5 @@
 # Ionic Platform Body Classes
-Document to describe the different device classes applied to body by Ionic Platform.
+Document to describe the different platform classes applied to document body by `ionic.Platform`.
 
 ## Contribute 
 Please submit PRs with any missing classes that adds a new row on the tables below.
