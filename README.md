@@ -48,7 +48,7 @@ Ionic also applies OS meta classes which determine the version of platform OS an
 #### Platform OS Version Classes
 Ionic also adds meta classes to determine the OS version, this can be used to fallback onto a more relevant "look and feel" or to accomodate for OS restrictions for that Version.
 
-The version is formed by examing the `User Agent` of OS version and replacing the `.` with a `_` that separates the Major and Minor version numbers. e.g. 7.1 will be 7_1
+The version is formed by examing the `User Agent` of OS version and replacing the `.` with a `_` that separates the Major and Minor version numbers. e.g. `7.1` will be `7_1`
 
 | Platform OS Version       | Class     |
 | ------------- |-------------|
